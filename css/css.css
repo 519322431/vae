@@ -1,0 +1,435 @@
+/*首页*/
+.vae{
+	width: 100%;
+	position: relative;
+	min-width: 300px;
+	max-width: 640px;
+	margin:0 auto;
+	overflow: hidden;
+	padding-bottom: 71px;
+}
+html,body{
+	width: 100%;
+	height: 100%;
+}
+/*首页广告图*/
+.guanggaotu{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	z-index: 101;
+	opacity: 1;
+}
+/*头部导航*/
+#inner{width: 100%;overflow: hidden; position: relative;margin-top: 41px}
+#con{float: left; width: 500%}
+#con .ycj{float: left;width: 20%}
+#num{
+	min-width: 300px;
+	max-width: 640px;
+	width: 100%;
+	height: 38px;
+	position: fixed;
+	top: 0;
+	background: #fff;
+	z-index: 100;
+}
+#num li{
+	float: left;
+	display: block;
+	height: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	width: 20%;
+	margin-left: 10%;
+	color: #abadac;
+	text-align: center;
+}
+#num .select{
+	color: #63a5fb;
+}
+.daohang_xian{
+	min-width: 300px;
+	max-width: 640px;
+	width: 100%;
+	position: fixed;
+	top: 38px;
+	background: #fff;
+	z-index: 100;
+}
+.daohang_xian1{
+	width: 20%;
+	position: absolute;
+	left: 10%;
+	height: 3px;
+	background: #63a5fb;
+}
+/*今年勇banner图*/
+.jinnianyong{
+	width: 100%;
+}
+/*许嵩来了*/
+.vae_come{
+	width: 100%;
+	background: #f0f1f3;
+	height: 308px;
+}
+/*许嵩来了标题*/
+.vae_come_tit{
+	width: 92.6%;
+	padding: 0 3.7%;
+	margin:0px auto;
+}
+.vae_come_tit p{
+	font-size: 16px;
+}
+.vae_come_tit p:nth-child(1){
+    float: left;
+    padding-left: 23px;
+    position: relative;
+    color: #505551;
+    background: url(../images/qiandao.png) 0 2px no-repeat;
+    background-size: 20px 17px;
+}
+.vae_come_tit p:nth-child(2){
+	float: right;
+}
+.vae_come_tit p:nth-child(2) a{
+	color: #505551;
+}
+.clear{
+	clear: both;
+}
+/*许嵩帖子*/
+.vae_tie{
+	width: 89.97%;
+	margin:28px auto;
+	background: #fff;
+	border-radius: 10px;
+	height: 217px;
+	box-shadow: 0 0 5px #ccc;
+	position: relative;
+}
+.vae_fabiao{
+	padding-left: 33px;
+}
+.vae_xinxi{
+	position: absolute;
+	width: 36px;
+	height: 36px;
+	top: 25px;
+	right: 25px;
+}
+.vae_time{
+	font-size: 14px;
+	color: #a8acab;
+	padding-left: 22px;
+	background: url(../images/time.png) 0 1px no-repeat;
+	background-size: 15px 16px;
+	margin-left: 33px;
+	margin-top: 31px;
+}
+/*发帖人*/
+.vae_user{
+	margin-left: 32px;
+	margin-top: 25px;
+
+}
+.vae_user img{
+	width: 38px;
+	height: 38px;
+	display: block;
+	float: left;
+	border-radius: 8px;
+	margin-top: 2px;
+}
+.vae_user_zi{
+	float: left;
+	margin-left: 13px;
+}
+.vae_user_zi p{
+	font-style: 14px;
+}
+.vae_user_zi p:nth-child(1){
+	color: #9f9f9f;
+}
+.vae_user_zi p:nth-child(2){
+	color: #6fa3ff;
+}
+/*分类*/
+/*分类选项*/
+#num1{
+	width: 100%;
+	height: 66px;
+	overflow: hidden;
+}
+#num1 li{
+	width: 20%;
+	text-align: center;
+	font-size: 16px;
+	color: #a6acac;
+	height: 66px;
+	line-height: 66px;
+	float: left;
+}
+
+#num1 .select{
+	color: #63a5fb;
+}
+/*.分类banner*/
+#inner1{width: 100%;overflow: hidden; position: relative;}
+#con1{float: left; width: 700%}
+#con1 .ycj1{float: left;width: 14.28%}
+/*新闻*/
+.xinwen{
+	width: 94.52%;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+.xinwen_tu{
+	display: block;
+	float: left;
+	width: 23.8%;
+}
+.xinwen_box{
+	float: left;
+	margin-left: 13px;
+	width: 72%;
+}
+.xinwen_tit{
+	font-weight: bold;
+	line-height: 25px;
+	margin-top: 5px;
+}
+.xinwen_con{
+	font-size: 14px;
+	color: #a3a3a3;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	margin-top: 22px;
+}
+.shuliang{
+	margin-top: 25px;
+}
+.shuliang p{
+	font-size: 14px;
+	color: #adb1b0;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+}
+.shuliang p:nth-child(1){
+	background: url(../images/xinwen1.png) 0 0 no-repeat;
+	background-size: 16px;
+	padding-left: 6%;
+}
+.shuliang p:nth-child(2){
+	margin-left: 13.43%;
+}
+.shuliang p:nth-child(3){
+	background: url(../images/pinglun.png) 0 0 no-repeat;
+	background-size: 16px;
+	padding-left: 5%;
+	margin-left: 20.36%;
+
+}
+.shuliang p:nth-child(4){
+	background: url(../images/zan.png) 0 0 no-repeat;
+	background-size: 16px;
+	padding-left: 5%;
+	margin-left: 3.85%;
+}
+/*底部菜单*/
+.footer{
+	width: 100%;
+	height: 71px;
+	background: #fff;
+	z-index: 100;
+	bottom: 0;
+	position: fixed;
+    min-width: 300px;
+    max-width: 640px;
+}
+.footer a{
+	display: block;
+	font-size: 14px;
+	padding-top: 36px;
+	color: #929898;
+	margin-top: 7px;
+	float: left;
+	width: 20%;
+	text-align: center;
+	background-size: 30px 32px;
+	background-position: center 0 ;
+	background-repeat: no-repeat;
+}
+.footer .click{
+	color: #69a5e4;
+}
+.footer a:nth-child(1){
+	background-image: url(../images/vae_img1.png);
+}
+.footer a:nth-child(2){
+	background-image: url(../images/quanzi.png);
+}
+.footer a:nth-child(3){
+	background-image: url(../images/faxian.png);
+}
+.footer a:nth-child(4){
+	background-image: url(../images/xinxi.png);
+}
+.footer a:nth-child(5){
+	background-image: url(../images/wo.png);
+}
+/*行程*/
+.xingcheng{
+	width: 100%;
+	margin-left: 10%;
+	line-height: 64px;
+	font-size: 18px;
+}
+/*行程详情*/
+.xingcheng_xq{
+	width: 100%;
+
+}
+.momo_shengdian{
+	margin-top: 46px;
+	padding-left: 13.05%;
+	margin-left: 6%;
+	position: relative;
+	font-size: 18px;
+	color: #606060;
+}
+.momo_shengdian::before{
+	content: "";
+	width: 10px;
+	height: 10px;
+	border: 4px solid #579ddb;
+	border-radius: 50%;
+	left: 0;
+	top: 2px;
+	position: absolute;
+}
+.momo_time{
+    font-size: 14px;
+    color: #a8acab;
+    padding-left: 22px;
+    background: url(../images/time.png) 0 1px no-repeat;
+    background-size: 15px 16px;
+    margin-left: 20%;	
+    margin-top: 31px;
+}
+.momo_dingwei{
+	margin-left: 20%;
+	font-size: 14px;
+    color: #a8acab;
+    padding-left: 22px;
+    background: url(../images/dingwei.png) 0 2px no-repeat;
+    background-size: 15px 16px;
+ 	margin-top: 10px;
+ 	margin-bottom: 43px;
+}
+.xingcheng_yue{
+	color: #aab3b2;
+	font-size: 16px;
+	background:#f0f1f3;
+	padding-left: 8%;
+	line-height: 64px;
+}
+/*滑动轮播*/
+@charset "utf-8";
+*{margin:0;padding:0;list-style:none;border:0;}
+
+/* main_image */
+.main_visual{border-top:1px solid #d7d7d7;overflow:hidden;position:relative;}
+.main_image{overflow:hidden;position:relative;}
+.main_image ul{width:300%;overflow:hidden;position:absolute;top:0;left:0}
+.main_image li{float:left;width:33.33%;}
+.main_image li span img{display:block;width:100%;}
+.main_image li a{display:block;width:100%;}
+
+
+div.flicking_con{position:absolute;top:360px;left:50%;z-index:999;width:300px;height:21px;margin:0 0 0 -50px;}
+div.flicking_con a.on{background-position:0 -21px}
+/*全部活动*/
+.huodong_quanbu{
+    margin-left: 5.35%;
+    border: 3px solid #dcdcdc;
+    background: url(../images/xia.png) 81px center no-repeat;
+    background-size: 27px 23px;
+    float: left;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #969a99;
+    height: 49px;
+   	line-height: 49px;
+   	width: 23.62%;
+   	text-align: center;
+   	padding-right: 20px;
+}
+.sou_chengshi{
+	height: 49px;
+   	line-height: 49px;
+   	width: 53.62%;
+   	text-align: center;
+   	padding-left: 20px;
+    margin-left: 2.35%;
+    border: 3px solid #dcdcdc;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 10px;
+    background: url(../images/fangdajing.png) 11px center no-repeat;
+    background-size: 20px 20px;
+}
+.juhui{
+	width: 92.77%;
+	margin:23px auto 0;
+	display: block;
+}
+.gemi_juhui{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: 5%;
+}
+.huodong_js{
+	color: #878787;
+	line-height: 25px;
+	margin-top: 20px;
+	width: 92.77%;
+	margin:23px auto 0;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+.huodong_shijian{
+	width: 92.77%;
+	margin:23px auto 0;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 13px;
+}
+.huodong_shijian p{
+	float: left;
+	color: #878787;
+}
+.huodong_shijian p:nth-child(2){
+	margin-left: 36%;
+    background: url(../images/pinglun.png) 0 center no-repeat;
+    background-size: 16px;
+    padding-left: 6%;
+}
+.huodong_shijian p:nth-child(3){
+	margin-left: 5%;
+    background: url(../images/zan.png) 0 center no-repeat;
+    background-size: 16px;
+    padding-left: 6%;
+}
